@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.best_btn{
+  text-decoration: none;  
+  color: white;
+  background-color: #FF5959;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.title_text{
+    font-size: 2.8rem;
+}
+
+.details{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: grey;
+}
+
+.background_first{
+    background-color: #EDF5F6;
+}
+.background_second{
+    background-color: #FFEEEE;
+}
+.background_thired{
+    background-color: #FFF4D6;
+}
+/* header section*/
+
+header{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    text-align: center;
+    color: white;
+}
+.header_title{
+    font-size: 5rem;
+    padding-top: 20rem;
+}
+.header_details{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+/* donate_bd_section */
+.donate_bd_section{
+    text-align: center;
+    margin: 6rem 0;
+}
+.donate_main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.donate_part{
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.075);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+}
+.donate_part:hover{
+   border:0.1rem solid red;
+    background-color:#FFEEEE;
+    color:red;
+}
+.donate_bd_section input{
+    width: 60%;
+    padding: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+/* donate_plan_section */
+.donate_plan_section{
+    text-align: center;
+    width: 80%;
+    margin:8rem auto;
+}
+.donate_plan_section_para{
+    width: 60%;
+    margin: 1rem auto;
+}
+.donate_plan_main{
+    display: flex;
+    text-align: start;
+    margin: 4rem 0;
+}
+
+.donate_plan{
+    width: 25%;
+    margin: 0 1.8rem;
+    padding: 3rem;
+    border-radius: 0.5;
+}
+.donate_plan img , .donate_plan h2, .donate_plan p{
+   margin: 1rem 0;
+}
+
+/* get_update_section */
+.get_update_section{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.email_submit_box{
+    width: 50%;
+    margin: 2rem auto;
+    padding: 5rem;
+}
+.email_submit_box input{
+   width: 50%;
+   padding: 1rem;
+   border: none;
+   outline: none;
+   background-color:#D9D9D9;
+   font-size: 1.3rem;
+}
+.email_submit_box button{
+   padding: 1rem 2.5rem;
+   border: none;
+   background-color: #FF5959;
+   font-size: 1.3rem;
+   color: white;
+   margin-left: -0.5rem;
+}
+
+/* our_activity_section*/
+.our_activity_section{
+    width: 80%;
+    margin: 8rem auto;
+}
+.our_activity_section h1{
+    font-size: 2rem;
+    border-bottom: 2px solid #BCDF80;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.activity_main{
+    display: flex;
+}
+
+.activity_item{
+    width: 22%;
+    margin: 0 3%;
+    text-align: justify;
+}
+.activity_item img{
+    width: 100%;
+    height: 8rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.activity_item p{
+  font-size: 1.3rem;
+  color: rgba(128, 128, 128, 0.493);
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 4rem;
+}
+footer h1{
+    color: #E95253;
+    margin-bottom: 1rem;
+    font-family: 'Lobster', cursive
+}
+footer p{
+    color: gray;
+}
